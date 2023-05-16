@@ -28,11 +28,11 @@ SECRET_KEY = 'django-insecure-_@876m&g2$*55!90p5cvqfsb)_f07n#33vhp2^3ggabcx#zyjr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://segurainvendors-elms.up.railway.app/', 'segurainvendors-elms.up.railway.app']
+ALLOWED_HOSTS = ['https://modules-hazfdo2z6-lalithkumaruppada-gmailcom.vercel.app/', 'modules-hazfdo2z6-lalithkumaruppada-gmailcom.vercel.app']
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://segurainvendors-elms.up.railway.app/'
+    'https://modules-hazfdo2z6-lalithkumaruppada-gmailcom.vercel.app/'
 ]
 
 
