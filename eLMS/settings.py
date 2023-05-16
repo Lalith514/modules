@@ -90,16 +90,26 @@ WSGI_APPLICATION = 'eLMS.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'railway',
+#         'HOST': 'containers-us-west-178.railway.app',
+#         'USER': 'root',
+#         'PASSWORD': 'moW5yBQIIfh9YCojc0sG',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
-        'HOST': 'containers-us-west-178.railway.app',
-        'USER': 'root',
-        'PASSWORD': 'moW5yBQIIfh9YCojc0sG',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'Chq1dz6TeugK',
+        'HOST': 'ep-yellow-voice-868100-pooler.us-east-1.postgres.vercel-storage.com',
+        
     }
 }
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
