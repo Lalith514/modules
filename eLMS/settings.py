@@ -31,6 +31,11 @@ DEBUG = True
 ALLOWED_HOSTS = ['https://segurainvendors-elms.up.railway.app/', 'segurainvendors-elms.up.railway.app']
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://segurainvendors-elms.up.railway.app/'
+]
+
+
 # Application definition
 
 INSTALLED_APPS = [
